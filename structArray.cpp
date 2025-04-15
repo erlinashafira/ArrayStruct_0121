@@ -31,9 +31,11 @@ int main(){
      cout << endl;
      cout << "Data Mahasiswa " << endl;
 
+     for(int n = 0;n < 2; n++){
      cout << "NIM = " << mhs[n].nim << endl;
      cout << "NAMA = " << mhs[n].nama << endl;
      cout << "ALAMAT DESA = " <<mhs[n].alamat.desa << endl;
      cout << "ALAMAT KOTA = " <<mhs[n].alamat.kota << endl;
     }
+}
 }
