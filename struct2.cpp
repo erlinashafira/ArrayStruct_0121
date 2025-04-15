@@ -3,7 +3,7 @@ using namespace std;
 
 struct detailAlamat{
     string desa;
-    sring kota;
+    string kota;
 };
 
 struct mahasiswa{
@@ -16,14 +16,11 @@ int main(){
       //membuat object struct mahasiswa
       mahasiswa mhs;
 
-      //mengaksesstruct mahaasiswa
-      mhs.nim = "20201400";
-      mhs.nama = "Abra";
-      mhs.alamat = "Kasihan";
+      //mengakses struct mahasiswa
 
       cout << "Masukkan NIM = ";
       cin >> mhs.nim;
-      cout << "Masukkan Nama = ";
+      cout << "Masukkan NAMA = ";
       cin >> mhs.nama;
       cout << "Masukkan ALAMAT DESA = ";
       cin >> mhs.alamat.desa;
@@ -31,10 +28,10 @@ int main(){
       cin >> mhs.alamat.kota;
 
       cout << endl;
-      cout << "Data Mahasiswa " <, endl;
+      cout << "Data Mahasiswa " << endl;
 
       cout << "NIM = " << mhs.nim << endl;
-      cout << "ANAMA = " << mhs.nama << endl;
+      cout << "NAMA = " << mhs.nama << endl;
       cout << "ALAMAT DESA = " <<mhs.alamat.desa << endl;
       cout << "ALAMAT KOTA = " <<mhs.alamat.kota << endl;
 
