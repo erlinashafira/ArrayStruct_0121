@@ -18,7 +18,7 @@ int main(){
 
     cout << "Masukkan NIM = ";
     cin >> mhs.nim;
-    cout << "Masukkan Nama = ";
+    cout << "Masukkan NAMA = ";
     cin >> mhs.nama;
     cout << "Masukkan ALAMAT = ";
     cin >> mhs.alamat;
@@ -26,5 +26,5 @@ int main(){
     cout << "NIM = " << mhs.nim << endl;
     cout << "NAMA = " << mhs.nama << endl;\
     cout << "ALAMAT = " << mhs.alamat << endl;
-    
+
 }
